@@ -10,6 +10,7 @@ import { CreateEmployeeComponent } from './components/create-employee/create-emp
 import { EmployeeListComponent } from './components/employee-list/employee-list.component';
 import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
 import { UpdateEmployeeComponent } from './components/update-employee/update-employee.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UpdateEmployeeComponent } from './components/update-employee/update-emp
     CreateEmployeeComponent,
     EmployeeListComponent,
     EmployeeDetailsComponent,
-    UpdateEmployeeComponent
+    UpdateEmployeeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
