@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  private baseUrl = 'http://139.59.190.137/employees_api/employees_api/v1/employees';
+  private baseUrl = 'https://employees-mohamed-rest-api.herokuapp.com/employees_api/employees_api/v1/employees';
 
   constructor(private http: HttpClient) { }
 
